@@ -6,5 +6,19 @@
   "content_scripts": [{
     "css": ["blurred-media.css"],
     "matches": ["https://web.whatsapp.com/*"]
-  }]
+  }],
+  "action": {
+    "default_icon": {
+      "16": "/images/blurred_media16.png",
+      "32": "/images/blurred_media32.png",
+      "48": "/images/blurred_media48.png",
+      "128": "/images/blurred_media128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/blurred_media16.png",
+    "32": "/images/blurred_media32.png",
+    "48": "/images/blurred_media48.png",
+    "128": "/images/blurred_media128.png"
+  }
 }
