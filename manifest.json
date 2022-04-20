@@ -1,0 +1,10 @@
+{
+  "name": "Blur All Whatsapp Web Media",
+  "description": "This extension adds blur to all images and videos inside Whatsapp Web, not exposing its content until they are selected.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [{
+    "css": ["blurred-media.css"],
+    "matches": ["https://web.whatsapp.com/*"]
+  }]
+}
